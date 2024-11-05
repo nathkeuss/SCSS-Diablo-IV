@@ -1,0 +1,60 @@
+footer {
+    background: linear-gradient(to top, green, transparent);
+    margin-top: 100px;
+
+    h3 {
+        text-align: center;
+        margin-left: 15px;
+        color: white;
+
+        font: {
+            family: Bildad;
+            size: 25px;
+        }
+    }
+
+    div {
+        width: 95%;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        div {
+            img {
+                height: 100px;
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+                list-style-type: none;
+
+                img {
+                    height: 50px;
+                    width: 100%;
+                }
+            }
+        }
+
+        button {
+            height: 30px;
+            width: 210px;
+            padding-top: 10px;
+            background-color: #63d006;
+            color: white;
+            border: none;
+            border-radius: 5px;
+
+            font: {
+                family: Bildad;
+                size: 20px
+            }
+                        &:hover {
+                background-color: black;
+                color: #63d006;
+                border: solid 2px #63d006;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+section:nth-of-type(1) {
+    background-image: linear-gradient(to right, black, transparent),
+    url(../img/familiers.png);
+    background-size: contain;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: 200% center;
+    background-repeat: no-repeat;
+
+    article {
+        width: 90%;
+        margin: auto;
+
+        h2 {
+            color: white;
+            padding-top: 30px;
+
+            font: {
+                family: "diablo";
+                size: 90px;
+            }
+        }
+
+        h3 {
+            color: #63d006;
+
+            font: {
+                family: "DiabloLight";
+                size: 40px;
+            }
+
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        p {
+            color: white;
+            line-height: 30px;
+
+            font: {
+                family: "Poppins", sans-serif;
+                weight: 500;
+                style: normal;
+                size: 20px;
+            }
+
+            width: 50%;
+        }
+    }
+
+}

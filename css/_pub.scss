@@ -1,0 +1,37 @@
+.pub {
+
+    div {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 150px;
+            width: 150px;
+        }
+
+        button {
+            height: 40px;
+            width: 45%;
+            margin: auto;
+            padding-top: 10px;
+            background-color: #63d006;
+            color: white;
+            border: none;
+            border-radius: 5px;
+
+            font: {
+                family: Bildad;
+                size: 30px
+            }
+            &:hover {
+                background-color: black;
+                color: #63d006;
+                border: solid 2px #63d006;
+            }
+        }
+
+    }
+}
+

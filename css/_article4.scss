@@ -1,0 +1,59 @@
+section:nth-of-type(7) {
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        text-align: center;
+
+        font: {
+            family: "Diablo";
+            size: 70px;
+        }
+    }
+
+    article {
+        display: flex;
+        justify-content: space-around;
+
+
+        div {
+
+            width: 45%;
+        }
+
+        h3 {
+            text-align: center;
+            color: white;
+            width: 53%;
+            margin: auto;
+
+
+            font: {
+                family: DiabloLight;
+                size: 25px;
+
+            }
+        }
+
+        p {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: white;
+
+            font: {
+                family: "Poppins", sans-serif;
+                weight: 300;
+                style: normal;
+                size: 16px;
+            }
+        }
+
+        iframe {
+            height: 250px;
+            width: 100%;
+            border-radius: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
